@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Наши кошки — В шаге от дома</title>
+<meta name="description" content="Кошки приюта «В шаге от дома», которые ищут семью в Костромской области.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" href="images/logo-icon.png" type="image/png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">
+      <img src="images/logo-icon.png" alt="В шаге от дома" class="logo-mark">
+      <span>В шаге от дома<small>АНО · приют для кошек</small></span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Главная</a>
+      <a href="cats.html" class="active">Наши кошки</a>
+      <a href="donate.html">Как помочь</a>
+      <a href="donate.html" class="btn btn-primary nav-cta">Помочь сейчас</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:0;">
+  <div class="wrap" style="grid-template-columns:1fr; padding-bottom:56px;">
+    <div class="hero-copy">
+      <div class="eyebrow">Каталог</div>
+      <h1>Кошки, которым<br>нужен <em>дом</em></h1>
+      <p class="lede">Каждая из них уже сделала свой первый шаг — от улицы к передержке. Следующий шаг — к вам.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-cream">
+  <div class="wrap">
+    <div class="cats-toolbar">
+      <div>
+        <div class="eyebrow">Ищут семью</div>
+        <h2 style="margin:0;">Все кошки</h2>
+      </div>
+    </div>
+
+    <!-- Карточки кошек добавляются сюда: копируйте .cat-card из шаблона ниже -->
+    <div class="cats-grid" id="cats-grid">
+
+      <!-- ШАБЛОН КАРТОЧКИ (скопировать и заполнить при добавлении кошки):
+      <div class="cat-card">
+        <div class="photo"><img src="images/ИМЯ.jpg" alt="Кошка ИМЯ"></div>
+        <div class="body">
+          <div class="name-row">
+            <h3>Имя</h3>
+            <span class="age">2 года</span>
+          </div>
+          <p>Короткое описание характера и истории кошки.</p>
+          <div class="tags">
+            <span class="tag">Стерилизована</span>
+            <span class="tag">Привита</span>
+          </div>
+          <a href="https://vk.ru/v_shage_ot_doma" target="_blank" rel="noopener" class="btn btn-outline-dark">Забрать домой</a>
+        </div>
+      </div>
+      -->
+
+      <div class="cat-card">
+        <div class="photo"><img src="images/arkasha.jpg" alt="Кот Аркаша"></div>
+        <div class="body">
+          <div class="name-row">
+            <h3>Аркаша</h3>
+            <span class="age">5 месяцев</span>
+          </div>
+          <p>Кувырок назад, кувырок вперёд, серьёзная моська — и снова покорять пространство! Весёлый и жизнерадостный котёнок, невероятно ласковый и ориентированный на человека.</p>
+          <div class="tags">
+            <span class="tag">Привит</span>
+            <span class="tag">Обработан</span>
+          </div>
+          <a href="https://vk.ru/v_shage_ot_doma" target="_blank" rel="noopener" class="btn btn-outline-dark">Забрать домой</a>
+        </div>
+      </div>
+
+      <div class="cat-card">
+        <div class="photo"><img src="images/nora.jpg" alt="Кошка Нора"></div>
+        <div class="body">
+          <div class="name-row">
+            <h3>Нора</h3>
+            <span class="age">Молодая</span>
+          </div>
+          <p>Настоящий «вечный двигатель»! Активная, шустрая, обожает игры и внимание. Полностью готова к переезду и ищет самую ответственную семью, которая больше никогда её не предаст.</p>
+          <div class="tags">
+            <span class="tag">Стерилизована</span>
+            <span class="tag">Привита</span>
+            <span class="tag">Приучена к лотку</span>
+          </div>
+          <a href="https://vk.ru/v_shage_ot_doma" target="_blank" rel="noopener" class="btn btn-outline-dark">Забрать домой</a>
+        </div>
+      </div>
+
+      <div class="cat-card">
+        <div class="photo"><img src="images/masya.jpg" alt="Кошка Мася"></div>
+        <div class="body">
+          <div class="name-row">
+            <h3>Мася</h3>
+            <span class="age">2,5 месяца</span>
+          </div>
+          <p>Малышка очень хочет стать домашней и любимой кошечкой. Ласковая, смышлёная и обаятельная, а ещё уже вполне самостоятельная — без промахов ходит строго в лоток.</p>
+          <div class="tags">
+            <span class="tag">Приучена к лотку</span>
+          </div>
+          <a href="https://vk.ru/v_shage_ot_doma" target="_blank" rel="noopener" class="btn btn-outline-dark">Забрать домой</a>
+        </div>
+      </div>
+
+      <div class="cat-card">
+        <div class="photo"><img src="images/sabina.jpg" alt="Кошка Сабина"></div>
+        <div class="body">
+          <div class="name-row">
+            <h3>Сабина</h3>
+          </div>
+          <p>Невероятно нежная, безобидная и очень чистоплотная кошечка. Обожает внимание и тянет лапки к каждому, кто проходит мимо, выпрашивая ласку. Один глазик у неё с рождения чуть меньше другого — это совсем не мешает ей жить, а лишь придаёт мордашке трогательный, немного удивлённый вид.</p>
+          <a href="https://vk.ru/v_shage_ot_doma" target="_blank" rel="noopener" class="btn btn-outline-dark">Забрать домой</a>
+        </div>
+      </div>
+
+      <div class="cat-card">
+        <div class="photo"><img src="images/chip-dale.jpg" alt="Коты Чип и Дейл"></div>
+        <div class="body">
+          <div class="name-row">
+            <h3>Чип и Дейл</h3>
+            <span class="age">Подростки</span>
+          </div>
+          <p>Братья-подростки, которые выросли у нас на руках — мы знаем о них всё. Активные, прыгучие и очень жизнерадостные ребята. Ищем для них самый лучший дом и любящих родителей, готовых взять сразу двоих.</p>
+          <div class="tags">
+            <span class="tag">Здоровы</span>
+          </div>
+          <a href="https://vk.ru/v_shage_ot_doma" target="_blank" rel="noopener" class="btn btn-outline-dark">Забрать домой</a>
+        </div>
+      </div>
+
+      <div class="cat-card">
+        <div class="photo"><img src="images/kasya.jpg" alt="Кошка Кася"></div>
+        <div class="body">
+          <div class="name-row">
+            <h3>Кася</h3>
+            <span class="age">3 года</span>
+          </div>
+          <p>Активная, умная и очень ласковая красавица. Обожает внимание и с радостью дарит любовь заботливым хозяевам. К новым людям поначалу относится настороженно — нужно немного времени, чтобы довериться, а дальше она раскрывается как самый нежный и преданный друг.</p>
+          <a href="https://vk.ru/v_shage_ot_doma" target="_blank" rel="noopener" class="btn btn-outline-dark">Забрать домой</a>
+        </div>
+      </div>
+
+      <div class="cat-card">
+        <div class="photo"><img src="images/boris.jpg" alt="Кот Борис"></div>
+        <div class="body">
+          <div class="name-row">
+            <h3>Борис</h3>
+          </div>
+          <p>Парень с характером и тонкой душевной организацией — не из тех, кто настойчиво требует внимания. Если хочет побыть один — тихонько посидит в сторонке, а когда настроение подходящее, сам подойдёт за своей порцией ласки. Ему важнее спокойная, доверительная атмосфера и уважение к его границам.</p>
+          <a href="https://vk.ru/v_shage_ot_doma" target="_blank" rel="noopener" class="btn btn-outline-dark">Забрать домой</a>
+        </div>
+      </div>
+
+      <div class="cat-card">
+        <div class="photo"><img src="images/mimisha.jpg" alt="Кошка Мимиша"></div>
+        <div class="body">
+          <div class="name-row">
+            <h3>Мимиша</h3>
+          </div>
+          <p>Настоящая душа компании: обожает внимание, с радостью сидит на коленях, мурлычет и дарит уют. К другим животным относится спокойно, без особой тяги к дружбе — комфортнее всего ей будет единственной любимицей в доме.</p>
+          <a href="https://vk.ru/v_shage_ot_doma" target="_blank" rel="noopener" class="btn btn-outline-dark">Забрать домой</a>
+        </div>
+      </div>
+
+      <div class="cat-card">
+        <div class="photo"><img src="images/zhuzha.jpg" alt="Кошка Жужа"></div>
+        <div class="body">
+          <div class="name-row">
+            <h3>Жужа</h3>
+          </div>
+          <p>От неё просто глаз не оторвать! Полна энергии, обожает игры и готова подарить всю свою преданность и любовь. Ищем для неё самых заботливых, ответственных и добрых людей, которые станут настоящей семьёй.</p>
+          <div class="tags">
+            <span class="tag">Привита</span>
+            <span class="tag">Стерилизована</span>
+            <span class="tag">Обработана</span>
+          </div>
+          <a href="https://vk.ru/v_shage_ot_doma" target="_blank" rel="noopener" class="btn btn-outline-dark">Забрать домой</a>
+        </div>
+      </div>
+
+      <div class="cat-card">
+        <div class="photo"><img src="images/knopa.jpg" alt="Кошка Кнопа"></div>
+        <div class="body">
+          <div class="name-row">
+            <h3>Кнопа</h3>
+          </div>
+          <p>Идеальный баланс ласки и самостоятельности. В меру активная: с удовольствием погоняет мячик, но не будет сводить с ума ночными марафонами. Очень нежная девочка, которая обожает мурчать на ручках. К новым людям поначалу осторожна — нужно немного времени, чтобы довериться, а дальше становится самым преданным другом.</p>
+          <a href="https://vk.ru/v_shage_ot_doma" target="_blank" rel="noopener" class="btn btn-outline-dark">Забрать домой</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-org">
+        <div class="logo">
+          <img src="images/logo-icon.png" alt="В шаге от дома" class="logo-mark">
+          <span>АНО «В шаге от дома»</span>
+        </div>
+        <p>Помогаем бездомным кошкам Костромской области найти дом.</p>
+      </div>
+      <div class="footer-legal">
+        ИНН 4400012713 · КПП 440001001<br>
+        ОГРН 1234400000911<br>
+        157940, Костромская область, м.р-н Красносельский,<br>пгт Красное-на-Волге, пер. Пушкино, д. 45
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 АНО «В шаге от дома»</span>
+      <span><a href="tel:+79038996760">8 903 899-67-60</a> · <a href="https://vk.ru/v_shage_ot_doma" target="_blank" rel="noopener">VK</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
